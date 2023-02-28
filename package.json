@@ -8,7 +8,7 @@
 		"build": "astro build",
 		"preview": "astro preview",
 		"astro": "astro",
-		"running": "node HOST=0.0.0.0 dist/server/entry.mjs"
+		"running": "node dist/server/entry.mjs"
 	},
 	"dependencies": {
 		"@astrojs/node": "^5.0.4",
