@@ -7,9 +7,11 @@
 		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"astro": "astro"
+		"astro": "astro",
+		"deploy": "node HOST=0.0.0.0 dist/server/entry.mjs"
 	},
 	"dependencies": {
+		"@astrojs/node": "^5.0.4",
 		"astro": "^2.0.16"
 	}
 }
