@@ -13,5 +13,8 @@
 	"dependencies": {
 		"@astrojs/node": "^5.0.4",
 		"astro": "^2.0.16"
+	},
+	"engines": {
+		"node": ">=18.14.2"
 	}
 }
